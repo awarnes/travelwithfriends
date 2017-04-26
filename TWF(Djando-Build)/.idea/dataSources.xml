@@ -7,5 +7,16 @@
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://localhost:5432/Capstone_TWF</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="Django default" uuid="6b42f364-6d22-47bb-824d-28b880de8296">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/Capstone_TWF/settings.py</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:Capstone_TWF</jdbc-url>
+      <driver-properties>
+        <property name="compatible" value="9.6" />
+      </driver-properties>
+    </data-source>
   </component>
 </project>

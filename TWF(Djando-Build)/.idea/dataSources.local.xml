@@ -12,5 +12,10 @@
       <resolve-scope>Capstone_TWF:public,twf_admin</resolve-scope>
       <unqualified-resolve-schemas>Capstone_TWF:public,twf_admin</unqualified-resolve-schemas>
     </data-source>
+    <data-source name="Django default" uuid="6b42f364-6d22-47bb-824d-28b880de8296">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <first-sync>true</first-sync>
+      <user-name>twf_admin</user-name>
+    </data-source>
   </component>
 </project>
